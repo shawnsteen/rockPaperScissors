@@ -32,8 +32,8 @@ function lose(userChoice, computerChoice) {
 }
 
 function draw(userChoice, computerChoice) {
-	result_p.innerHTML = userChoice + " equals " + computerChoice + 
-		", it's a draw!";
+	result_p.innerHTML = userChoice + " and " + computerChoice + 
+		". Tie!";
 }
 
 function game(userChoice) {
